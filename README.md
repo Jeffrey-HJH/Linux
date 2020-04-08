@@ -4,17 +4,13 @@ Name : JIAHUI HU
 
 Student Number : 200364402
 
-The topic of OS : Linux kernel module programming
+The topic of OS : Add a system call in the Linux operating system
 
 Description ：
-	This project is written in the ubuntu Linux operating system installed in the virtual machine in the window 10 system, 	       write   a Linux kernel module, then compile the kernel module, and connect this module to the Linux kernel to run.      	       Write two files,   but 7 additional files will be added during the operation of the kernel. In the process, the   	 "makefile" file will be used.
-	
-Challenges :
-	The challenges of writing a Linux kernel program are:
-		1): C library cannot be accessed during kernel programming
-		2): Lack of memory protection mechanism during kernel programming
-		3): Kernel programming also needs to consider synchronization and concurrency
-		4): GUN C must be used for kernel programming
-    
+	A set of subroutines for implementing various system functions are set in the Linux kernel, called system calls. Create a system call function as an example to illustrate how to add system calls to the kernel. First of all, a new kernel will be built during the process. I am using the linux-4.18.14. After adding a new system call to test, to ensure that the system call is added successfully. Then write a test file to test the added system call.
+
+Challenges ：
+	(1) : in the user mode cannot call casually the function of the kernel mode.
+	(2) : Build a new kernel
 
 Description and Instruction to reproduce the project
