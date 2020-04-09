@@ -5,3 +5,9 @@ you can find the version which one you need in this link : www.kernel.org
 use this commend to download in the terminal : 
 wget https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.18.14.tar.xz (just change the verison to what you need)
 (enter into the /usr/src then use the above command)
+
+like :
+{
+cd /usr/src
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.18.14.tar.xz
+}
