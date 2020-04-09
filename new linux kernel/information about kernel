@@ -1,0 +1,7 @@
+I use the version of linux kernel is : linux-4.18.14
+ or 
+you can find the version which one you need in this link : www.kernel.org
+ or
+use this commend to download in the terminal : 
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.18.14.tar.xz (just change the verison to what you need)
+(enter into the /usr/src then use the above command)
