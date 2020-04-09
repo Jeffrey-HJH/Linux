@@ -18,3 +18,4 @@ step three : recompile kernel
             sudo make -j4  (the number after "j" is depend on your computer, my lattop is 4 cores thus I use "-j4".This step will take a very lone time.)
           }
           
+          
