@@ -1,0 +1,8 @@
+add the 
+
+  "asmlinkage long sys_helloworld(void){
+    printk( "Hello World!!");
+     return 1;
+    }
+  "
+into the sys.c
