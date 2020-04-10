@@ -1,0 +1,14 @@
+if your new kernel version is higher than the old version then the ubuntu will automatically enter into the higher version kernel.
+
+for my situation, my new kernel verison is 4.18.14 and my old kernel version is 5.03.46,
+thus the ubuntu selected the higher level version.
+
+Modify the configuration options of grub to display the menu bar for selecting the kernel version at boot.
+
+The following is the way to enter the grub interface to select the kernel:
+{
+  gedit /etc/default/grub
+  (Use gedit to open the configuration file，Only need to modify “GRUB_HIDDEN_TIMEOUT”. Just need to comment out this line,
+   like this "#GRUB_HIDDEN_TIMEOUT=0")
+   
+}
