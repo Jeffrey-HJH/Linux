@@ -14,5 +14,10 @@ or
 
 gcc hello.c -o hello  (Compile the test source program)
 
+./hello  (Output result)
+![image](https://github.com/Jeffrey-HJH/Linux/blob/master/Problem/Test%20system%20call/test-hello-2.png)
+(the return value is "1", means the system call succeeded)
 
+dmesg  (View process information, the result is in the last line)
+![image](https://github.com/Jeffrey-HJH/Linux/blob/master/Problem/Test%20system%20call/hello-world.png)
 }
