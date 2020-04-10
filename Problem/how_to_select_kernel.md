@@ -21,4 +21,6 @@ The following is the way to enter the grub interface to select the kernel:
    You should have entered the new kernel after above steps.
    open the terminal and use "uname -r" to check the version.
    ![image](https://github.com/Jeffrey-HJH/Linux/blob/master/Problem/check-version.png)
+   
+   
 }
