@@ -11,4 +11,7 @@ The following is the way to enter the grub interface to select the kernel:
   (Use gedit to open the configuration file，Only need to modify “GRUB_HIDDEN_TIMEOUT”. Just need to comment out this line,
    like this "#GRUB_HIDDEN_TIMEOUT=0")
    ![image](https://github.com/Jeffrey-HJH/Linux/blob/master/Problem/commend.png)
+   
+   Restart after successful setting。 You will see the following screen
+   
 }
