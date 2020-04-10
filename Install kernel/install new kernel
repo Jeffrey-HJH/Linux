@@ -1,0 +1,18 @@
+Install the new kernel into the Linux operating system.
+
+
+use :
+{
+  sudo make modules_install 
+  sudo make install
+}
+
+you can check use this commend to check if the kernel is installed successfully.
+
+{
+  cd /lib/module/
+  ls
+ }
+ 
+ then restar the system and choose the new kernel.
+ use { uname -a } to check the version of the kernel.
