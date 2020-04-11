@@ -6,9 +6,18 @@ Student Number : 200364402
 
 The topic of OS : Add a system call in the Linux operating system
 
-Description ：
-	First build the environment in the Linux operating system in the virtual machine
-	A set of subroutines for implementing various system functions are set in the Linux kernel, called system calls. Create a system call function as an example to illustrate how to add system calls to the kernel. First of all, a new kernel will be built during the process. I am using the linux-4.18.14. After adding a new system call to test, to ensure that the system call is added successfully. Then write a test file to test the added system call.
+	Description ：
+
+	Add a new system call in the kernel of the Linux operating system.
+	Shows how to build an environment step by step, install a new Linux kernel and debug newly added system calls.
+	premise:
+	
+	(1): Computer system: macOS Catalina
+	(2): Virtual machine parallels desktop
+	(3): Linux version: Ubuntu 18.04
+	(4): New kernel version: 4.18.14
+	
+	(1) -> 
 
 Challenges ：
 	(1) : in the user mode cannot call casually the function of the kernel mode.
