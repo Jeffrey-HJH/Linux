@@ -6,12 +6,9 @@ Student Number : 200364402
 
 The topic of OS : Add a system call in the Linux operating system
 
-	Description ：
-
-	Add a new system call in the kernel of the Linux operating system.
-	Shows how to build an environment step by step, install a new Linux kernel and debug newly added system calls.
-	premise:
+Description ：Add a new system call in the kernel of the Linux operating system. Shows how to build an environment step by step, install a new Linux kernel and debug newly added system calls.
 	
+	premise:
 	(1): Computer system: macOS Catalina
 	(2): Virtual machine parallels desktop
 	(3): Linux version: Ubuntu 18.04
