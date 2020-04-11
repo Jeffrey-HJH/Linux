@@ -28,6 +28,6 @@ you will see some data like this :
 my virtual machine is 64 bit, so I use 64 :
 
 (335 64 hello_world __x64_sys_helloworld)
-![image](https://github.com/Jeffrey-HJH/Linux/blob/master/Assign%20system%20call%20id/added 335.png)
+![image](https://github.com/Jeffrey-HJH/Linux/blob/master/Assign%20system%20call%20id/added-335.png)
 
 so add 335 64 hello_world __x64_sys_helloworld follow the 334.
